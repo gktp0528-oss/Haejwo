@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>해줘 (Haejwo) - 두코바니 행정 및 숙박 중개</title>
+  <meta name="description" content="2029년 두코바니 원전 건설 프로젝트를 위한 한국인 전용 행정 및 숙박 토탈 솔루션">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-C2WXPwn9.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-WgPAtsLs.css">
+</head>
+
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container header-container">
+        <!-- Left: Menu Button -->
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <!-- Center: Dynamic Title -->
+        <h1 class="header-title" id="headerTitle">HAEJWO</h1>
+
+        <!-- Right: Spacer for centering -->
+        <div class="header-spacer"></div>
+      </div>
+    </header>
+
+    <!-- Slide-out Navigation -->
+    <nav class="side-menu" id="sideMenu">
+      <div class="menu-header">
+        <span class="menu-title">Menu</span>
+        <button class="close-btn" id="closeBtn">&times;</button>
+      </div>
+      <ul class="menu-list">
+        <li><a href="#" data-page="home" class="active">홈</a></li>
+        <li><a href="#" data-page="rentcar">렌트카</a></li>
+        <li><a href="#" data-page="accom">숙박</a></li>
+        <li><a href="#" data-page="visa">비자</a></li>
+      </ul>
+    </nav>
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- Main Content: Home -->
+    <div id="page-home" class="page-content active">
+      <!-- Hero -->
+      <section class="hero" id="hero">
+        <div class="hero-bg">
+          <img src="images/dukovany_power_plant_hero_1769556089718.png" alt="두코바니 원자력 발전소 전경">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <h1 class="hero-title fade-in-up">
+            2029 두코바니 원전<br>
+            <span class="highlight">성공적 건설</span>을 위한<br>
+            든든한 파트너
+          </h1>
+          <p class="hero-subtitle fade-in-up delay-1">
+            한국인 에이전트가 제공하는<br>
+            숙박 중개 및 현지 행정 토탈 솔루션
+          </p>
+          <a href="#services" class="btn-primary fade-in-up delay-2">서비스 알아보기</a>
+        </div>
+        <div class="scroll-indicator">
+          <div class="mouse"></div>
+          <p>스크롤하여 알아보기</p>
+        </div>
+      </section>
+  
+      <!-- About Dukovany -->
+      <section class="about section-padding" id="about">
+        <div class="container">
+          <div class="section-header text-center">
+            <h2 class="section-title fade-in-up">About Dukovany Project</h2>
+            <p class="section-desc fade-in-up delay-1">
+              체코 두코바니 원전 건설 프로젝트는 대한민국 원전 기술의<br>
+              유럽 진출을 알리는 역사적인 첫걸음입니다.
+            </p>
+          </div>
+          <div class="about-content">
+            <div class="about-image fade-in-left">
+              <img src="images/dukovany_map_1769555422411.png" alt="두코바니 위치 지도">
+            </div>
+            <div class="about-text fade-in-right">
+              <h3>성공적인 프로젝트 수행을 위해<br>안정적인 정착이 필수적입니다.</h3>
+              <p>
+                낯선 타지에서의 생활은 업무 효율에 큰 영향을 미칩니다.<br>
+                해줘(Haejwo)는 여러분이 오직 업무에만 집중하실 수 있도록<br>
+                현지 사정에 정통한 전문가들이 최적의 숙소와 행정 서비스를 제공합니다.
+              </p>
+              <ul class="feature-list">
+                <li>✅ Třebíč 및 주변 지역 프리미엄 숙소 확보</li>
+                <li>✅ 현지 법률 및 행정 절차 완벽 가이드</li>
+                <li>✅ 24시간 한국어 긴급 지원 서비스</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Services -->
+      <section class="services section-padding" id="services">
+        <div class="container">
+          <div class="section-header text-center">
+            <h2 class="section-title fade-in-up">Our Services</h2>
+            <p class="section-desc fade-in-up delay-1">
+              입국 전 준비부터 현지 생활, 그리고 귀국까지<br>
+              전 과정에 걸쳐 세심하게 케어합니다.
+            </p>
+          </div>
+          <div class="services-grid">
+            <div class="service-card glass-card fade-in-up delay-2">
+              <div class="card-image">
+                <img src="images/service_accom_1769555407669.png" alt="숙박 중개">
+              </div>
+              <div class="card-content">
+                <h3>숙박 중개</h3>
+                <p>
+                  안전하고 쾌적한 아파트 및 단독주택을 엄선하여<br>
+                  다양한 예산과 니즈에 맞춰 매칭해 드립니다.
+                </p>
+                <ul>
+                  <li>장/단기 임대 계약 지원</li>
+                  <li>보증금 및 월세 협상 대행</li>
+                  <li>입주 청소 및 유틸리티 설정</li>
+                </ul>
+              </div>
+            </div>
+            <div class="service-card glass-card fade-in-up delay-3">
+              <div class="card-image">
+                <img src="images/service_admin_1769555392842.png" alt="행정 지원">
+              </div>
+              <div class="card-content">
+                <h3>행정 지원</h3>
+                <p>
+                  비자 발급부터 거주지 등록, 계좌 개설까지<br>
+                  복잡한 행정 절차를 빠르고 정확하게 처리합니다.
+                </p>
+                <ul>
+                  <li>비자 신청 및 갱신 서류 대행</li>
+                  <li>외국인 거주 등록 (Foreign Police)</li>
+                  <li>현지 은행 계좌 및 유심 개통</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Placeholder Pages (Hidden by default) -->
+    <div id="page-rentcar" class="page-content">
+      <!-- Rent-a-car Hero -->
+      <section class="rentcar-hero">
+        <div class="rentcar-hero-bg">
+          <img src="images/rentcar_hero_bg_1769607979116.png" alt="체코 드라이빙">
+        </div>
+        <div class="rentcar-overlay"></div>
+        <div class="container hero-content">
+          <h1 class="hero-title fade-in-up">
+            체코에서의 운전,<br>
+            <span class="highlight">현지 파트너</span>와 함께라면<br>
+            걱정 없습니다
+          </h1>
+          <p class="hero-subtitle fade-in-up delay-1">
+            한국인 매니저가 보증하는<br>
+            안전하고 합리적인 차량 렌트 솔루션
+          </p>
+        </div>
+      </section>
+
+      <!-- Why Haejwo (Value Proposition) -->
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-header text-center">
+            <h2 class="section-title fade-in-up">Why Haejwo Rent-a-car?</h2>
+            <p class="section-desc fade-in-up delay-1">
+              단순히 차를 빌려드리는 것이 아닙니다.<br>
+              타지에서의 이동에 대한 확실한 '안심'을 약속드립니다.
+            </p>
+          </div>
+          <div class="value-grid">
+            <div class="value-item fade-in-up delay-2">
+              <div class="icon-lg">🛡️</div>
+              <h3>한국인 사고처리 지원</h3>
+              <p>갑작스러운 접촉 사고나 고장 발생 시,<br>24시간 대기 중인 한국인 매니저가 현장으로 출동하거나 유선으로 모든 처리를 도와드립니다.</p>
+            </div>
+            <div class="value-item fade-in-up delay-3">
+              <div class="icon-lg">📑</div>
+              <h3>투명한 정찰제 계약</h3>
+              <p>복잡한 현지 보험 약관과 숨겨진 추가 요금 없이,<br>완전 자차 보험이 포함된 투명한 견적서(All-in-one)를 한국어로 제공합니다.</p>
+            </div>
+            <div class="value-item fade-in-up delay-4">
+              <div class="icon-lg">✨</div>
+              <h3>검증된 차량 파트너십</h3>
+              <p>현지 Top-tier 렌트카 업체(Skoda Auto 등)와 공식 제휴를 통해,<br>신차급 컨디션의 차량만을 엄선하여 배정해 드립니다.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Vehicle Lineup -->
+      <section class="section-padding bg-light">
+        <div class="container">
+          <div class="section-header text-center">
+            <h2 class="section-title fade-in-up">Vehicle Lineup</h2>
+            <p class="section-desc fade-in-up delay-1">
+              고객님의 목적과 예산에 딱 맞는 최적의 차량을 제안합니다.
+            </p>
+          </div>
+          <div class="vehicle-grid">
+            <!-- Economy -->
+            <div class="vehicle-card glass-card fade-in-up">
+              <div class="vehicle-image">
+                <img src="images/car_economy.png" alt="Economy Sedan/Wagon Class">
+                <span class="vehicle-badge">Economy</span>
+              </div>
+              <div class="vehicle-content">
+                <h3>Economy Sedan/Wagon</h3>
+                <p class="vehicle-desc">합리적인 비용으로 시내 주행과 단거리 이동에 최적화된 실속형 모델입니다.</p>
+                <div class="vehicle-specs">
+                  <span>🚗 Wagon</span>
+                  <span>⚙️ Auto/Manual</span>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Business -->
+            <div class="vehicle-card glass-card fade-in-up delay-1">
+              <div class="vehicle-image">
+                <img src="images/car_business.png" alt="Premium Sedan/Wagon Class">
+                <span class="vehicle-badge business">Business</span>
+              </div>
+              <div class="vehicle-content">
+                <h3>Premium Sedan/Wagon</h3>
+                <p class="vehicle-desc">중요한 미팅이나 장거리 이동 시 편안함과 품격을 제공하는 비즈니스 세단입니다.</p>
+                <div class="vehicle-specs">
+                  <span>🚗 Sedan</span>
+                  <span>⚙️ Automatic</span>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Field (SUV) -->
+            <div class="vehicle-card glass-card fade-in-up delay-2">
+              <div class="vehicle-image">
+                <img src="images/car_suv.png" alt="Standard SUV Class">
+                <span class="vehicle-badge field">Field</span>
+              </div>
+              <div class="vehicle-content">
+                <h3>Standard SUV</h3>
+                <p class="vehicle-desc">현장 방문이 잦거나 많은 짐을 적재해야 하는 경우를 위한 다목적 차량입니다.</p>
+                <div class="vehicle-specs">
+                  <span>🚗 SUV</span>
+                  <span>⚙️ Automatic</span>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Van (New) -->
+            <div class="vehicle-card glass-card fade-in-up delay-3">
+              <div class="vehicle-image">
+                <img src="images/car_van.png" alt="Premium Van Class">
+                <span class="vehicle-badge business">Van</span>
+              </div>
+              <div class="vehicle-content">
+                <h3>Premium Van</h3>
+                <p class="vehicle-desc">단체 이동이나 VIP 의전을 위한 넉넉한 공간과 편안함을 갖춘 승합 차량입니다.</p>
+                <div class="vehicle-specs">
+                  <span>🚗 7-9 Seater</span>
+                  <span>⚙️ Automatic</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- CTA -->
+      <section class="section-padding text-center">
+        <div class="container">
+          <h2>지금 바로 맞춤 견적을 받아보세요</h2>
+          <p class="mb-2">원하시는 차종과 기간을 알려주시면, 24시간 이내에 최적의 요금제를 제안해 드립니다.</p>
+          <a href="#" class="btn-primary-lg">견적 요청하기</a>
+        </div>
+      </section>
+    </div>
+
+    <div id="page-accom" class="page-content">
+      <div class="placeholder-container">
+        <!-- Content will be added later -->
+      </div>
+    </div>
+
+    <div id="page-visa" class="page-content">
+      <div class="placeholder-container">
+        <!-- Content will be added later -->
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">해줘.</div>
+          <p>&copy; 2026 Haejwo Service. All rights reserved.<br>Designed for Dukovany Project 2029.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
